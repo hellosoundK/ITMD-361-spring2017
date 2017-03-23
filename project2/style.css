@@ -1,6 +1,5 @@
 html {
 	background-color: #C8E3F8;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 100%;
 	font: inherit;
 	margin: 0;
@@ -15,9 +14,33 @@ header, div, nav{
 
 body {
 	line-height: 1.5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
-#info{
+nav#menu {
+	background-color:#cdc8b1;	 
+}
+nav#menu  ul{
+	list-style-type :none;
+    margin:0;
+    padding:0;
+	overflow:hidden;
+}
+nav#menu ul li{
+	float: left;
+}	
+nav#menu ul li a {
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	
+}
+#intro {
+	background-color: #C8E3F8;
+	text-align: right;
+}
+#info {
 	text-align: center;
 }
 #info h1{
