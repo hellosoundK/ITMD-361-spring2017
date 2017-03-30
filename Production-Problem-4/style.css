@@ -1,0 +1,57 @@
+#head {	
+	font-size: 500%;
+	text-align: center;
+	color: #31698A;
+	padding:3% 1% 5% 1%;
+	margin: 0 0 50px 0;
+	width: 100% auto;
+	height:100px;
+	background-color :#DDDDDD;
+	
+}
+table, th, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+	margin: auto;
+	text-align: center;
+	background-color: #DED9D3;
+	
+}
+th {
+    height: 50px;
+	font-weight: bold;
+	font-size: 20px;
+	height: 50px;
+	background-color: #A8353A;
+	padding: 10px 10px 10px 10px
+}
+
+#att {
+	width: 300px;
+}
+#photo {
+	width: 200px;
+}
+#details {
+	width: 300px;
+}
+
+body {
+	background-image: url('http://www.isi.edu/sites/default/files/centers/serc/serc_space.jpg');
+	background-size : 100% auto;
+}
+
+.img{
+  height: 150px;
+  width: 150px;
+  vertical-align: middle;
+}
+
+footer {
+	margin: auto;
+	text-align: right;
+	color:white;
+}
