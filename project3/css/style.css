@@ -1,0 +1,107 @@
+html {
+	background-color: #C8E3F8;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;	
+}
+
+header, div, nav{
+	display: block;
+}
+
+body {
+	line-height: 1.5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+nav#menu {
+	background-color:#cdc8b1;	 
+}
+nav#menu  ul{
+	list-style-type :none;
+    margin:0;
+    padding:0;
+	overflow:hidden;
+}
+nav#menu ul li{
+	float: left;
+}	
+nav#menu ul li a {
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	
+}
+#intro {
+	background-color: #C8E3F8;
+	text-align: right;
+}
+#info {
+	text-align: center;
+}
+#info h1{
+	color: #000000;
+	font-style: normal;
+}
+#info h3{
+	color: #000000;
+	font-style: normal;
+	text-align: right;
+	margin-right: 2rem;
+}
+
+#education h3{
+	color: #000000;
+	font-size: 150%;
+	margin-left: 0rem;
+}
+
+#experience h3{
+	color: #000000;
+	font-size: 150%;
+	margin-left: 0rem;
+}
+
+#skills h3{
+	color: #000000;
+	font-size: 150%;
+	margin-left: 0rem;
+}
+
+#Activities h3{
+	color: #000000;
+	font-size: 150%;
+	margin-left: 0rem;
+}
+
+section {
+	margin-left: 2rem;
+}
+
+
+h1 {
+	color: #8B0000;
+	text-align: center;
+	font-style:oblique;
+}
+
+h3 {
+	color: #8B0000;
+	font-style:oblique;
+	margin-left: 2rem;
+}
+
+img {
+	margin-left: 5rem;
+}
+
+ul {
+	margin-left: 2rem;
+}
+li {
+	margin-left: 2rem;
+}
