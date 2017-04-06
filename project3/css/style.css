@@ -97,6 +97,7 @@ h3 {
 
 img {
 	margin-left: 5rem;
+	
 }
 
 ul {
@@ -104,4 +105,10 @@ ul {
 }
 li {
 	margin-left: 2rem;
+}
+.infolink {
+	margin: 3% 3% 3% 3%;
+}
+p.pcss {
+	white-space: pre-line;
 }
