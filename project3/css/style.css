@@ -17,7 +17,8 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 nav#menu {
-	background-color:#cdc8b1;	 
+	background-color:#cdc8b1;	
+	height:50px;
 }
 nav#menu  ul{
 	list-style-type :none;
@@ -27,6 +28,7 @@ nav#menu  ul{
 }
 nav#menu ul li{
 	float: left;
+	font-size: 30px;
 }	
 nav#menu ul li a {
 	display: block;
@@ -111,4 +113,15 @@ li {
 }
 p.pcss {
 	white-space: pre-line;
+}
+footer {
+	background:#eee;
+    text-align:center; 
+    
+}
+#map{
+	margin: auto;
+	padding-top: 5em;
+	height: 400px;
+	width: 400px;
 }
