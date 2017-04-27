@@ -2,12 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
 		<title>skim project1_intro</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	
 	<body>
-		
 		<header>
 			<nav id="menu">
 				<ul>
@@ -50,7 +50,7 @@
 			<ul>
 				<li>
 					<h3>food of korea?</h3>
-					<p class="pcss">there are so many food in KOREA!</p>
+					<p class="pcss">There are so many food in KOREA!</p>
 				</li>
 			</ul>
 			
@@ -59,8 +59,34 @@
 			<img src="img/bulgogi.jpg" alt="bulgogi" width="400" height="300">
 			<a href="https://theculturetrip.com/asia/south-korea/articles/14-mouth-watering-south-korean-foods-to-try/" class ="infolink">for more information, CLICK HERE!</a>
 			
+			<ul>
+				<li>
+					<h3>Where is Seoul?</h3>
+					<p class="pcss">Here is map of Seoul!</p>
+				</li>
+			</ul>
+			
+			<div id="map"> </div>
+				<script>
+				  function initMap() {
+					var seoul = {lat: 37.580544, lng: 127.002220};
+					var map = new google.maps.Map(document.getElementById('map'), {
+					  zoom: 10,
+					  center: seoul
+					});
+					var marker = new google.maps.Marker({
+					  position: seoul,
+					  map: map
+					});
+				  }
+
+				</script>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_FXJL29jH2SJ2W1EZjMPC2tukqIg-Ud0&callback=initMap"
+				async defer></script>
+				
 			<footer>
-				<p>Soji Kim</p>
+				<p>Posted by Soji Kim</p>
+				<p>Contact info : <a href = "mailto:skim154@hawk.iit.edu">skim154@hawk.iit.edu</a></p>
 			</footer>
 	</body>
 </html>
